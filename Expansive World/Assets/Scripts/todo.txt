@@ -1,0 +1,21 @@
+1. The Consistent Random Class changes based on the order in which it is called, 
+to prevent this make it so that each chunk has its own ConsistendRandom class.
+
+2(1/2). Additionally, implement LOD loading for the chunks.
+
+2. Add load states to chunks to be able to enable grass only when visible and necessary.
+
+3. Fix the chunking error where grass is placed underneath objects on the edges of chunks
+do to order of operations.
+
+4. Refactor the chunk generation code to make it neater, and more independent of eachother.
+
+5. Add a few more rocks, and a few more trees.
+
+6. Implement Navigation on the terrain and obstacles.
+
+
+# DONE #
+() For the world builder load the chunks based on the camera visibility rather than a
+square, this can be done by casting a ray from the bottom left of the screen and the top right,
+and then filling the chunks in between the two points.

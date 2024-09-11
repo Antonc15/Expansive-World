@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2184ffc936a7e14497ad331e0e76b74, type: 3}
+  m_Name: Rock 1
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4452042321583100367, guid: 0ea41bb50e1a6e5498e2581c02a4240a, type: 3}
+  vegitationValueUpper: 70
+  vegitationValueLower: 55
+  maxAngle: 12
+  percentProbability: 1.2
+  randomRotationX: 0
+  randomRotationY: 1
+  randomRotationZ: 0
+  surfaceNormalWeight: 0
+  obstacleCheckRadius: 1.4
+  minScale: 1
+  maxScale: 1.3
