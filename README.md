@@ -1,2 +1,3 @@
 # Expansive World
- Procedural World Generation
+Procedural World Generator with GPU Instancing and Chunk Culling.
+Youtube: https://youtu.be/KKikdaYmFko
